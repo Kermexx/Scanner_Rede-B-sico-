@@ -1,6 +1,6 @@
 # Ferramenta de Captura e Análise de Pacotes de Rede
 
-Esta aplicação é uma poderosa ferramenta de captura e análise de pacotes de rede, desenvolvida em Python com a biblioteca Scapy e uma interface gráfica construída com customtkinter. Ela permite aos usuários capturar pacotes em tempo real, filtrar por tipo de protocolo, analisar arquivos PCAP e exibir os detalhes dos pacotes em uma interface gráfica amigável.
+Esta aplicação é uma ferramenta de captura e análise de pacotes de rede, desenvolvida em Python com a biblioteca Scapy e uma interface gráfica construída com customtkinter. Ela permite aos usuários capturar pacotes em tempo real, filtrar por tipo de protocolo, analisar arquivos PCAP e exibir os detalhes dos pacotes em uma interface gráfica amigável.
 
 ## Funcionalidades
 
@@ -21,22 +21,15 @@ pip install scapy customtkinter
 ## Como Usar
 
 1. Clone ou baixe este repositório para o seu sistema.
-2. Abra o terminal e navegue até o diretório que contém o script.
-3. Execute o script com o comando `python nome_do_script.py`.
-4. Utilize os botões na interface gráfica para iniciar a captura de pacotes, filtrar por TCP ou UDP, carregar arquivos PCAP e mais.
-5. Os resultados serão exibidos na interface gráfica e podem ser salvos em um relatório para análise posterior.
+2. Execute o script em algum local como Pycharm
+3. Utilize os botões na interface gráfica para iniciar a captura de pacotes, filtrar por TCP ou UDP, carregar arquivos PCAP e mais.
+4. Os resultados serão exibidos na interface gráfica e podem ser salvos em um relatório para análise posterior.
 
 ## Estrutura do Código
 
 - `ComercarCaptura`: Classe responsável pela captura e análise dos pacotes.
 - `AppInterface`: Classe que cria e gerencia a interface gráfica.
 
-## Contribuição
 
-Contribuições são bem-vindas! Se você tiver alguma sugestão de melhoria ou quiser adicionar novas funcionalidades, fique à vontade para criar um fork e enviar um pull request.
-
-## Licença
-
-Defina a licença do seu projeto aqui para informar aos usuários como eles podem usar seu código legalmente.
 
 
